@@ -1,56 +1,57 @@
-header { 
-    background-image: url(../assets/Beach.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 750; 
-    height: 100vh;
+* {
+    box-sizing: border box;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
 }
 
-.container {
-    padding-top: 15%;
-}
-
-.button-header {
-    align-items: center;
+p {
     justify-content: center;
-    margin-left: 27.5%;
-    opacity: 1000;
+    line-height: 35px;
+    width: 95%;
 }
 
-button {
-    background-color: #ce2020;    
-    border: none;
-    border-radius: 5px;
-    color: #ffffff; 
-    cursor: pointer; 
-    font-size: 20px;
-    font-weight: 350;
-    height: 50px;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-top: 5px;
-    padding: 10px;
-    text-align: center;
-}
+section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
 
-h1 { 
-    color: #ffffff;
-    float: left;
-    font-size: 48px; 
-    font-weight: 700;
-    height: auto;
+    color: rgb(20, 20, 20);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    height: 400px;
+    padding: 40px 4%;
     text-align: center;
     width: 100%;
+
+    word-wrap: break-word;
 }
 
-h2 {
-    color: #ffffff;
-    float: left;
-    font-size: 32px; 
-    font-weight: 700;
-    height: auto;
-    text-align: center;
-    width: 100%;
+section h1 {
+    font-size: 48px;
+    margin-bottom: 20px; 
+}
+
+section:nth-of-type(1){
+    background-image: url("../assets/Beach.jpg");
+}
+
+section:nth-of-type(3){
+    background-image: url("../assets/Baalbek.jpg");
+}
+
+section:nth-of-type(5){
+    background-image: url("../assets/Byblos.jpg");
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
+}
+
+section:nth-of-type(7){
+    background-image: url("../assets/Sidon.jpg");
+}
+
+section:nth-of-type(9){
+    background-image: url("../assets/Tyre.jpg");
 }
