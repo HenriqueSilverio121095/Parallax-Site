@@ -1,12 +1,14 @@
-![Beach](https://user-images.githubusercontent.com/81840100/120140158-50447280-c1b0-11eb-864b-9dfe204e3958.png)
+# Parallax Site (Visit Lebanon) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/HenriqueSilverio121095/Parallax-Site/blob/main/LICENSE) 
 
-> Final result.
+# About the Project
+The project sought, through the advent of parallax scrolling, to create a tourism page to Lebanon, showing the main tourist attractions.
 
-### Adjustments and improvements
+# Technologies used
+## Front end
+- HTML
+- CSS
 
-The project is still under development and the next updates will focus on the following tasks:
-
-- [x] HTML
-- [x] CSS
-- [ ] Scroll down when clicking the button
-- [ ] Site Parallax
+# Author
+Henrique Silverio Siqueira de Oliveira
+https://www.linkedin.com/in/henrique-oliveira-1210/
