@@ -1,11 +1,11 @@
-# Parallax Site (Visit Lebanon) 
+# Personal portfolio
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/HenriqueSilverio121095/Parallax-Site/blob/main/LICENSE) 
 
-# About the Project
-The project sought, through the advent of parallax scrolling, to create a tourism page to Lebanon, showing the main tourist attractions.
+# About the project
+This project is my personal portfolio, in which you can learn a little more about me, my academic background, professional experience and knowledge of programming language.
 
 # Technologies used
-## Front end
+## FrontEnd
 - HTML
 - CSS
 
